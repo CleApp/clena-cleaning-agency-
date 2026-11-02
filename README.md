@@ -28,3 +28,6 @@ Paste both at the top of the script in index.html AND admin.html (never use the 
 ## 5. Go live
 Drag this folder onto app.netlify.com/drop (or use Vercel / Cloudflare Pages).
 Site: your-url/   Dashboard: your-url/admin.html
+
+## 6. supabase project password
+UfR2ZaLl8Bni8E3o
