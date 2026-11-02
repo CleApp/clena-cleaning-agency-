@@ -228,7 +228,7 @@ const SERVICES=[
 ];
 const EXTRAS=[{id:"fridge",n:"Inside fridge",p:20},{id:"oven",n:"Inside oven",p:25},{id:"laundry",n:"Laundry & ironing",p:30},{id:"balcony",n:"Balcony",p:15}];
 /* ---- PASTE YOUR KEYS (Supabase > Settings > API) ---- */
-const SUPABASE_URL="YOUR_SUPABASE_URL",SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_URL="https://qidhdssduuvwiunrqkse.supabase.co/rest/v1/",SUPABASE_ANON_KEY="sb_publishable_T5QxLmvYQPoi3INishClJg_bsLdpClH";
 let sb=null;try{sb=window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY)}catch(e){}
 const $=s=>document.querySelector(s);
 $("#yr").textContent=new Date().getFullYear();
